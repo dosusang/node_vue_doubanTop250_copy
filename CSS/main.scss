@@ -1,0 +1,39 @@
+// 样式重置 防止不同设备浏览器的默认样式产生影响
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2em;
+}
+
+a {
+    color: #27a;
+    text-decoration: none;
+}
+
+//colors
+$colors:(
+    "dark_gray":#545652,
+    "grey":#d5d5d5,
+    "blue":#27a,
+    "dark_blue":#37a,
+    "playable": #00A65F,
+    "foot_icon_back":#00A65F
+);
+
+// text
+
+@each $var in (left, right, center) {
+    .text-#{$var} {
+        text-align: $var;
+    }
+    
+}
