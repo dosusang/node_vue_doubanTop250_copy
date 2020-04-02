@@ -35,5 +35,13 @@ $colors:(
     .text-#{$var} {
         text-align: $var;
     }
-    
+}
+
+@each $key, $value in $colors {
+    .text-color-#{$key} {
+        color: $value;
+    }
+    .bg-color-#{$key} {
+        background: $value;
+    }
 }

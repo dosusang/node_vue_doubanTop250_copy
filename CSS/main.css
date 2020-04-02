@@ -29,3 +29,51 @@ a {
 .text-center {
   text-align: center;
 }
+
+.text-color-dark_gray {
+  color: #545652;
+}
+
+.bg-color-dark_gray {
+  background: #545652;
+}
+
+.text-color-grey {
+  color: #d5d5d5;
+}
+
+.bg-color-grey {
+  background: #d5d5d5;
+}
+
+.text-color-blue {
+  color: #27a;
+}
+
+.bg-color-blue {
+  background: #27a;
+}
+
+.text-color-dark_blue {
+  color: #37a;
+}
+
+.bg-color-dark_blue {
+  background: #37a;
+}
+
+.text-color-playable {
+  color: #00A65F;
+}
+
+.bg-color-playable {
+  background: #00A65F;
+}
+
+.text-color-foot_icon_back {
+  color: #00A65F;
+}
+
+.bg-color-foot_icon_back {
+  background: #00A65F;
+}
