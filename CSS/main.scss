@@ -34,13 +34,25 @@ a {
 }
 
 .logo-text {
-    margin: 20px 50px;
+    margin: 20px 50px 20px 0px;
     font-size: 2em;
     color:#37a;
     align-self: center;
 }
 .logo-search {
     align-self: center;
+    background-color: rgba($color: grey, $alpha: 0.5);
+    border-radius: 3px;
+}
+.search-text {
+    align-self: center;
+    width: 28em;
+    height: 1.8em;
+    border-radius: 3px 3px;
+    border-style: none;
+    box-shadow: 0px 1px rgba($color: grey, $alpha: 0.5);
+    padding-left: 1em;
+    // color: grey;
 }
 .logo {
     background-color: rgba($color: #27a, $alpha: 0.08);
@@ -50,6 +62,21 @@ a {
     width: 50px;
     align-self: center;
 }
+
+.x-center {
+    width: 50em;
+    margin: 0 auto;
+}
+
+.nav-ul {
+    list-style: none;
+    padding: 0px;
+    li {
+        margin: 0.5em 0.95em 0.5em 0em;
+        display: inline-block;
+        color: #37a;
+    }
+}
 //colors
 $colors:(
     "white":#fff,
@@ -58,10 +85,24 @@ $colors:(
     "blue":#27a,
     "dark_blue":#37a,
     "playable": #00A65F,
-    "foot_icon_back":#00A65F
+    "foot_icon_back":#00A65F,
 );
 
+.split-line {
+    border: none;
+    height: 1px;
+    background-color: #e3ebec;
+}
 
+.movie-wrapper {
+    margin: 0 auto;
+    margin-top: 2em;
+    width: 50em;
+    .text-douban{
+        display: inline-block;
+        color: #494949;
+    }
+}
 
 // text
 

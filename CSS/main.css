@@ -34,7 +34,7 @@ a {
 }
 
 .logo-text {
-  margin: 20px 50px;
+  margin: 20px 50px 20px 0px;
   font-size: 2em;
   color: #37a;
   align-self: center;
@@ -42,6 +42,18 @@ a {
 
 .logo-search {
   align-self: center;
+  background-color: rgba(128, 128, 128, 0.5);
+  border-radius: 3px;
+}
+
+.search-text {
+  align-self: center;
+  width: 28em;
+  height: 1.8em;
+  border-radius: 3px 3px;
+  border-style: none;
+  box-shadow: 0px 1px rgba(128, 128, 128, 0.5);
+  padding-left: 1em;
 }
 
 .logo {
@@ -52,6 +64,39 @@ a {
   height: 50px;
   width: 50px;
   align-self: center;
+}
+
+.x-center {
+  width: 50em;
+  margin: 0 auto;
+}
+
+.nav-ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.nav-ul li {
+  margin: 0.5em 0.95em 0.5em 0em;
+  display: inline-block;
+  color: #37a;
+}
+
+.split-line {
+  border: none;
+  height: 1px;
+  background-color: #e3ebec;
+}
+
+.movie-wrapper {
+  margin: 0 auto;
+  margin-top: 2em;
+  width: 50em;
+}
+
+.movie-wrapper .text-douban {
+  display: inline-block;
+  color: #494949;
 }
 
 .text-left {
